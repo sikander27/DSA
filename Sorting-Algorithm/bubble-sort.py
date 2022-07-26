@@ -6,7 +6,7 @@
 # Space Complexity	O(1)
 # Stability	Yes
 
-def bubbleSort(array):
+def bubbleSort(array,types = ["Asc","Desc"]):
     
   # loop to access each array element
   for i in range(len(array)):
@@ -15,7 +15,11 @@ def bubbleSort(array):
     swapped = False
     for j in range(0, len(array) - i - 1):
       # compare two adjacent elements
-      # change > to < to sort in descending order
+      # change > to < to sort in descending order 
+            ?????
+            ?????
+            ????
+            
       if array[j] > array[j + 1]:
 
         # swapping elements if elements
@@ -33,6 +37,7 @@ def bubbleSort(array):
 data = [-2, 45, 0, 11, -9]
 
 bubbleSort(data)
+
 
 print('Sorted Array in Ascending Order:')
 print(data)
